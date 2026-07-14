@@ -37123,7 +37123,7 @@ function(e, t) {
             i = "gamedistribution-jssdk",
             o = t.getElementsByTagName("script")[0],
             t.getElementById(i) || ((r = t.createElement("script")).id = i,
-            r.src = "js/main.min.js",
+            r.src = "web-engine-empty.js",
             o.parentNode && o.parentNode.insertBefore(r, o))
         }
         return e.prototype.setManager = function(e) {
